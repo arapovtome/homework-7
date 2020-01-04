@@ -431,8 +431,11 @@ body {
 
 /* Section :section-services */
 
-.section-services {
+.sections-padd{
     padding: 120px 0;
+}
+
+.section-services {
     background-color: #17c2a4;
     color: white;
     text-align: center;
@@ -479,4 +482,81 @@ body {
     text-transform: uppercase;
     margin-bottom: 0;
     white-space: nowrap;
+}
+
+/* Section :section-about-us */
+
+.section-about-us {
+    background-color: #e7f1f8;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.section-about-us p {
+    margin-bottom: 0;
+}
+
+.section-about-us h4 + p {
+    color: blue;
+    margin-top: 5px;
+} 
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #bdd1df;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+
+.social-links a i {
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-links a.fb-color:hover {
+    color:#3c5a99;
+    border-color: #3c5a99;
+}
+
+.social-links a.twitter-color:hover {
+    color:#28aae1;
+	border-color: #28aae1;
+}
+
+.social-links a.linkedin-color:hover {
+    color: #0177b5;
+	border-color: #0177b5;
+}
+
+.social-links a.envelope-color:hover {
+    color: sandybrown;
+    border-color: sandybrown;
+}
+
+.social-links a+a {
+    margin-left: 10px;
+}
+
+.mt-70 {
+    margin-top: 70px;
 }
