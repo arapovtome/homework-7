@@ -163,7 +163,11 @@ body {
 
     .services-items .col-xs-6:nth-child(n+3) {
 		margin-top: 50px;
-	}
+    }
+    
+    .col-md-6 {
+        width: 100%;
+    }
 
 }
 
@@ -222,7 +226,11 @@ body {
 
     .services-items .col-sm-4:nth-child(n+4) {
 		margin-top: 50px;
-	}
+    }
+    
+    .col-md-6 {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -559,4 +567,82 @@ body {
 
 .mt-70 {
     margin-top: 70px;
+}
+
+/* Section :section-portfolio */
+
+.section-portfolio {
+    background-color:#ffdd99;
+    text-align: center;
+}
+
+.section-portfolio .col-md-6 p {
+    text-transform: uppercase;
+}
+
+.btn-portfolio-bc {
+    background-color: #17c2a4;
+}
+
+.btn-portfolio-bc:hover {
+    background-color: white;
+    color: #17c2a4;
+    box-shadow: none;
+    border-color:#17c2a4;
+    box-shadow: inset 0 0 15px 0 grey;
+}
+
+.projects {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Section :section-blog-post */
+
+.section-blog-post {
+    background-color: #d74680;
+    text-align: center;
+    color: white;
+}
+
+.article {
+    position: relative;
+    text-align: left;
+}
+
+.profile {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+
+.blog-post {
+    padding: 10px 0 0 140px;
+}
+
+.post-text {
+    margin: 0;
+    font-size: 21px;
+}
+
+.post-bio {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.post-profession {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: burlywood;
 }
