@@ -1,0 +1,18 @@
+/* Small Devices, Mobiles */
+
+@media screen and (max-width:767px) {
+    .hero-content .heading-intro {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .btn-custom {
+        padding: 20px 40px;
+        font-size: 14px;
+    }
+
+    .section-main-title {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+}
