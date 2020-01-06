@@ -700,3 +700,38 @@ body {
     border-color: #30bae7;
     box-shadow:inset 0 0 15px 0 rgb(40, 34, 34);
 }
+
+/*Footer :site-footer */
+
+.site-footer {
+    padding: 50px 0;
+    background-color: #344b8e;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    transition: border 0.25s ease-in-out;
+}
+
+.footer-links a+a {
+    margin-left: 50px;
+}
+
+.footer-links a:focus {
+    color:lightseagreen
+}
+
+.footer-links a:hover {
+    border-color: white;
+}
+
+.footer-links a:focus:hover {
+    border: none;
+}
